@@ -8,8 +8,18 @@ syntax :
 list_of_csp = list(["aws", "azure", "gcp"])
 list_of_env = ["dev", "stg","prd"]
 
-print(dir(list_of_csp).__contains__)
-      
+#to see the operations can be performed
+"""print(dir(list_of_csp))"""
+
+#to add/append the element in last
+list_of_csp.append("IBM")
+
+#to insert the element at specific index
+list_of_env.insert(3,"test")
+
+print(list_of_csp)
+print(list_of_env)
+
 
 # for i in list_of_csp:
 #     print(i)
