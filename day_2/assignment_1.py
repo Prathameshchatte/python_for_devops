@@ -5,7 +5,7 @@ Find the smallest and Second Smallest Numbers from that list
 """
 """---------------------------------------------------------------"""
 
-#if we don't want to use default sort function then use, we can go with sorting algorithm 
+#if we don't want to use default sort function then we can go with sorting algorithm 
 # for i in range(len(num_list)):
 #     for j in range(len(num_list)):
 #         if num_list[i] < num_list[j]:
